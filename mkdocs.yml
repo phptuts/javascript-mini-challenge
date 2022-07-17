@@ -3,6 +3,7 @@ nav:
   - Start Here: index.md
   - Speech Recognition: 1-speech-recognition.md
   - Canvas Checkboard: 2-checkerboard-canvas.md
+  - Rotating Disk: 3-rotating-disk.md
 theme:
   name: readthedocs
   highlightjs: true
