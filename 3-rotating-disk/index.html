@@ -8,17 +8,24 @@
   
   
   
-  <link rel="shortcut icon" href="./img/favicon.ico">
-  <title>Javascript Mini Projects</title>
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Rotating Disk - Javascript Mini Projects</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
-  <link rel="stylesheet" href="./css/theme.css" />
-  <link rel="stylesheet" href="./css/theme_extra.css" />
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
-  <link href="./css/style.css" rel="stylesheet" />
+  <link href="../css/style.css" rel="stylesheet" />
   
-  <script src="./js/jquery-2.1.1.min.js" defer></script>
-  <script src="./js/modernizr-2.8.3.min.js" defer></script>
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Rotating Disk";
+    var mkdocs_page_input_path = "3-rotating-disk.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/lua.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/javascript.min.js"></script>
@@ -35,9 +42,9 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-        <a href="./." class="icon icon-home"> Javascript Mini Projects</a>
+        <a href=".." class="icon icon-home"> Javascript Mini Projects</a>
         <div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
       <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
   </form>
 </div>
@@ -45,19 +52,27 @@
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
                 <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="./.">Start Here</a>
+                    <li class="toctree-l1"><a class="reference internal" href="..">Start Here</a>
                     </li>
                 </ul>
                 <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="./1-speech-recognition/">Speech Recognition</a>
+                    <li class="toctree-l1"><a class="reference internal" href="../1-speech-recognition/">Speech Recognition</a>
                     </li>
                 </ul>
                 <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="./2-checkerboard-canvas/">Canvas Checkboard</a>
+                    <li class="toctree-l1"><a class="reference internal" href="../2-checkerboard-canvas/">Canvas Checkboard</a>
                     </li>
                 </ul>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="./3-rotating-disk/">Rotating Disk</a>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Rotating Disk</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#code">Code</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#project">Project</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#resources">Resources</a>
+    </li>
+    </ul>
                     </li>
                 </ul>
       </div>
@@ -69,7 +84,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="./.">Javascript Mini Projects</a>
+        <a href="..">Javascript Mini Projects</a>
       </nav>
 
       
@@ -77,9 +92,11 @@
         <div class="rst-content">
           <div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="./.">Docs</a> &raquo;</li>
+    <li><a href="..">Docs</a> &raquo;</li>
     
+      
     
+    <li>Rotating Disk</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -91,22 +108,32 @@
           <div role="main">
             <div class="section">
               
+                <h1 id="rotating-disk-challenge">Rotating Disk Challenge</h1>
+<p>Create a rotating circle that you can control with a slider.  There should also be a button that allows you to auto rotate.</p>
+<video controls>
+    <source src="https://storage.googleapis.com/noah-education-videos/javascript/3-Rotating-disk.mp4"
+            type="video/mp4">
+</video>
 
-  <h1 id="search">Search Results</h1>
-
-  <form id="content_search" action="search.html">
-    <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
-    <input name="q" id="mkdocs-search-query" type="text" class="search_input search-query ui-autocomplete-input" placeholder="Search the Docs" autocomplete="off" autofocus title="Type search term here">
-  </form>
-
-  <div id="mkdocs-search-results" class="search-results" data-no-results-text="No results found">
-    Searching...
-  </div>
-
-
+<h2 id="code"><a href="https://codesandbox.io/s/rotating-circle-55i40h">Code</a></h2>
+<h2 id="project"><a href="https://55i40h.csb.app/">Project</a></h2>
+<h2 id="resources">Resources</h2>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient">Linear Gradient</a></li>
+<li><a href="https://www.w3schools.com/jsref/met_win_setinterval.asp">setInterval</a></li>
+<li><a href="https://www.w3schools.com/jsref/met_element_addeventlistener.asp">addEventListener</a></li>
+</ul>
+              
             </div>
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../2-checkerboard-canvas/" class="btn btn-neutral" title="Canvas Checkboard"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>
@@ -130,13 +157,15 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
+      <span><a href="../2-checkerboard-canvas/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
     
   </span>
 </div>
-    <script>var base_url = '.';</script>
-    <script src="./js/theme_extra.js" defer></script>
-    <script src="./js/theme.js" defer></script>
-      <script src="./search/main.js" defer></script>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
     <script defer>
         window.onload = function () {
             SphinxRtdTheme.Navigation.enable(true);
