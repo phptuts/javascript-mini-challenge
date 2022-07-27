@@ -9,7 +9,7 @@ Using the canvas create a checkerboard with checker pieces.  You can use any col
 
 ## [Code](https://codesandbox.io/s/checkboard-challenge-l9i1dt)
 
-## [Project](https://l9i1dt.csb.app/)
+## [Demo](https://l9i1dt.csb.app/)
 
 ## Resources
 

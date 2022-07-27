@@ -10,7 +10,7 @@ The goal of this challenge is to create a div with a button.  When you press the
 ## [Code](https://codesandbox.io/s/word-control-color-challenge-noqr3c)
 
 
-## [Project](https://noqr3c.csb.app/)
+## [Demo](https://noqr3c.csb.app/)
 
 ## Help
 

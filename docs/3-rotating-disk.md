@@ -9,7 +9,7 @@ Create a rotating circle that you can control with a slider.  There should also 
 
 ## [Code](https://codesandbox.io/s/rotating-circle-55i40h)
 
-## [Project](https://55i40h.csb.app/)
+## [Demo](https://55i40h.csb.app/)
 
 ## Resources
 
