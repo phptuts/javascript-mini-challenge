@@ -5,6 +5,7 @@ nav:
   - Canvas Checkboard: 2-checkerboard-canvas.md
   - Rotating Disk: 3-rotating-disk.md
   - Fetch Request: 4-fetch-request.md
+  - Leaflet Wikipedia Api: 5-leaflet-wikipedia-api.md
 theme:
   name: readthedocs
   highlightjs: true
